@@ -25,5 +25,6 @@ urlpatterns = [
 
     # local
     path('', include('pages.urls')),
+    path('bookss/', include('bookss.urls')),
     # path('signup/', include('users.urls')),
 ]

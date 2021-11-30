@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     # local
     'users.apps.UsersConfig',
     'pages.apps.PagesConfig',
+    'bookss.apps.BookssConfig',
 
 ]
 
@@ -173,3 +174,6 @@ ACCOUNT_USERNAME_REQUIRED = False # new
 ACCOUNT_AUTHENTICATION_METHOD = 'email' # new
 ACCOUNT_EMAIL_REQUIRED = True # new
 ACCOUNT_UNIQUE_EMAIL = True # new
+
+# email from
+DEFAULT_FROM_EMAIL = 'admin@djangobookstore.com'

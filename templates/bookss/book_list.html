@@ -4,9 +4,12 @@
 
 {% block content %}
 
-  {% for book in books %}
-    <div>
-        <h3><a href="{{ book.get_absolute_url }}">{{ book.title }}</a></h3>
+  <div class="row">
+    {% for book in books %}
+    <div class="col-md my-2">
+    <img class="bookcover rounded" src="{{ book.cover.url }}" alt="{{ book.title }}" >
+        <h3 class="text-justify"><a href="{{ book.get_absolute_url }}">{{ book.title }}</a></h3>
     </div>
   {% endfor %}
+  </div>
 {% endblock content %}

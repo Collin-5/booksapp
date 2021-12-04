@@ -3,7 +3,7 @@
 {% block title %}Books{% endblock title %}
 
 {% block content %}
-
+<a href="{% url 'orders' %}" class="btn btn-success" >Purchase All Books</a>
   <div class="row">
     {% for book in books %}
     <div class="col-md my-2">

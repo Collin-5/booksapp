@@ -3,3 +3,4 @@ psycopg2-binary>=2.8
 django-crispy-forms>=1.13
 django-allauth>=0.43
 pillow>=6.2
+stripe>=2.32

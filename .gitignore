@@ -1,2 +1,3 @@
-.yml
-docker*
+docker-compose-prod.yml
+docker-compose.yml
+heroku.yml
